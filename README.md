@@ -1,12 +1,28 @@
-# React + Vite
+📝 Simple React Post Creator
+A minimal and clean React app where users can create and share text posts with a title, body, hashtags, and user ID. It's designed to focus only on core functionality—no backend, no login—just create and see your posts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔧 Features
+Create a post with:
 
-Currently, two official plugins are available:
+Title
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Body content
 
-## Expanding the ESLint configuration
+Hashtags (comma-separated)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User ID
+
+Form validation to ensure no empty posts are submitted
+
+Posts are displayed immediately after creation
+
+Uses React Context + useReducer for state management
+
+Clean and responsive UI using basic CSS (or Bootstrap if you've added that)
+
+🚧 In Progress
+Adding persistent storage (localStorage or backend)
+
+Editing or deleting posts
+
+User-specific post filtering
