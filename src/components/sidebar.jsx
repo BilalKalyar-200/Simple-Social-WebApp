@@ -5,7 +5,7 @@ const Sidebar = ({ currentTab, setNewTab }) => {
     <div className="main-container">
       <div className="sidebar-container">
         <div className="sidebar-header">
-          <h2>PostMaster 3000</h2>
+          <h2>Postify</h2>
         </div>
         <ul className="sidebar-nav">
           <li

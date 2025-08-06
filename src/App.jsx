@@ -9,7 +9,7 @@ import Homethingies from "./components/Homeee";
 import { useState } from "react";
 import PostListRenderer from "./store/postList-store";
 function App() {
-  const [currentTab, setNewTab] = useState("CreatePosts");
+  const [currentTab, setNewTab] = useState("Home");
 
   return (
     <PostListRenderer>
@@ -18,7 +18,7 @@ function App() {
         <div className="HF-container">
           <Header />
           {currentTab === "Home" && <Homethingies />}
-          {currentTab === "SeePosts" && <ListPost />}
+          {currentTab === "SeePosts" && <ListPost setNewTab={setNewTab} />}
           {currentTab === "CreatePosts" && <CreatePost />}
           <Footer />
         </div>

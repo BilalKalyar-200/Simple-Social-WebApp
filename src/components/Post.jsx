@@ -41,7 +41,7 @@ const Post = ({ post }) => {
         <div className="d-flex justify-content-between align-items-center mt-3">
           <div className="text-danger fw-semibold">
             <FaHeart style={{ marginRight: "5px" }} />
-            {post.reactions}
+            {post.reactions.likes}
           </div>
 
           <a
