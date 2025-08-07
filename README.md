@@ -98,7 +98,7 @@ first-social-page/
 
 2. **Install dependencies:**
 
-   ``
+   ```
    npm install
    ```
 
